@@ -2,7 +2,7 @@ import React from 'react'
 
 const SideBarRight = () => {
 	return (
-		<div>SideBarRight</div>
+		<div className='bg-[#FCE5E5]'>SideBarRight</div>
 	)
 }
 

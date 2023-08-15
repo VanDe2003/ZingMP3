@@ -1,0 +1,22 @@
+import React from 'react'
+import { useSelector, useDispatch } from 'react-redux'
+
+
+const Slider = () => {
+	const {banner} = useSelector(state => state.app)
+
+	return (
+		<div className='flex flex-col'>
+			{banner?.map(item => (
+				<img 
+				key={item.encodeId} 
+				src={item.banner} 
+				className='flex-1 object-contain'
+				alt=""
+				/>
+			))}
+		</div>
+	)
+}
+
+export default Slider

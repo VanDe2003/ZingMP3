@@ -1,22 +1,22 @@
 import icons from "./icons"
 
-const {GiMusicalScore} = icons
+const {GiMusicalScore, IoEarthOutline, SiSoundcharts} = icons
 
 export const sidebaMenu = [
 	{
 		path: 'mymusic',
 		text: 'Cá Nhân',
-		icons: <GiMusicalScore size={24}/>
+		icons: <GiMusicalScore size={20}/>
 	},
 	{
 		path: '',
 		text: 'Khám Phá',
 		end: true,
-		icons: <GiMusicalScore size={24}/>
+		icons: <IoEarthOutline size={20}/>
 	},
 	{
 		path: 'zing-chart',
 		text: '#zingchart',
-		icons: <GiMusicalScore size={24}/>
+		icons: <SiSoundcharts size={20}/>
 	}
 ]
