@@ -1,17 +1,32 @@
-import {GiMusicalScore} from 'react-icons/gi'
-import {IoEarthOutline} from 'react-icons/io5'
-import {SiSoundcharts} from 'react-icons/si'
-import {HiOutlineArrowNarrowRight, HiOutlineArrowNarrowLeft} from 'react-icons/hi'
-import {IoIosSearch} from 'react-icons/io'
-
+import { MdOutlineLibraryMusic, MdOutlineFeed, MdSkipNext, MdSkipPrevious } from 'react-icons/md'
+import { HiOutlineChartPie, HiArrowNarrowLeft, HiArrowNarrowRight } from 'react-icons/hi'
+import { TbChartArcs } from 'react-icons/tb'
+import { AiOutlineArrowLeft, AiOutlineArrowRight, AiFillHeart, AiOutlineHeart } from 'react-icons/ai'
+import { FiSearch } from 'react-icons/fi'
+import { BsThreeDots, BsFillPlayFill, BsPauseFill, BsMusicNoteBeamed, BsDot } from 'react-icons/bs'
+import { CiRepeat, CiShuffle } from 'react-icons/ci'
 
 const icons = {
-	GiMusicalScore,
-	IoEarthOutline,
-	SiSoundcharts,
-	HiOutlineArrowNarrowRight,
-	HiOutlineArrowNarrowLeft,
-	IoIosSearch
-};
+    MdOutlineLibraryMusic,
+    HiOutlineChartPie,
+    TbChartArcs,
+    MdOutlineFeed,
+    AiOutlineArrowRight,
+    AiOutlineArrowLeft,
+    HiArrowNarrowLeft,
+    HiArrowNarrowRight,
+    FiSearch,
+    AiFillHeart,
+    AiOutlineHeart,
+    BsThreeDots,
+    CiRepeat,
+    MdSkipPrevious,
+    MdSkipNext,
+    CiShuffle,
+    BsFillPlayFill,
+    BsPauseFill,
+    BsMusicNoteBeamed,
+    BsDot
+}
 
-export default icons 
+export default icons

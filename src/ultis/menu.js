@@ -1,22 +1,26 @@
 import icons from "./icons"
 
-const {GiMusicalScore, IoEarthOutline, SiSoundcharts} = icons
-
-export const sidebaMenu = [
-	{
-		path: 'mymusic',
-		text: 'Cá Nhân',
-		icons: <GiMusicalScore size={20}/>
-	},
-	{
-		path: '',
-		text: 'Khám Phá',
-		end: true,
-		icons: <IoEarthOutline size={20}/>
-	},
-	{
-		path: 'zing-chart',
-		text: '#zingchart',
-		icons: <SiSoundcharts size={20}/>
-	}
+const { MdOutlineLibraryMusic, MdOutlineFeed, TbChartArcs, HiOutlineChartPie } = icons
+export const sidebarMenu = [
+    {
+        path: 'mymusic',
+        text: 'Cá nhân',
+        icons: <MdOutlineLibraryMusic size={24} />
+    },
+    {
+        path: '',
+        text: 'Khám phá',
+        end: true,
+        icons: <TbChartArcs size={24} />
+    },
+    {
+        path: 'zing-chart',
+        text: '#zingchart',
+        icons: <HiOutlineChartPie size={24} />
+    },
+    {
+        path: 'follow',
+        text: 'Theo dõi',
+        icons: <MdOutlineFeed size={24} />
+    },
 ]

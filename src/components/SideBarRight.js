@@ -1,9 +1,9 @@
 import React from 'react'
 
-const SideBarRight = () => {
-	return (
-		<div className='bg-[#FCE5E5]'>SideBarRight</div>
-	)
+const SidebarRight = () => {
+    return (
+        <div>SidebarRight</div>
+    )
 }
 
-export default SideBarRight  
+export default SidebarRight
